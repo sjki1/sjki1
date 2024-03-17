@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="700" height="100" xmlns="http://www.w3.org/2000/svg">
+<style>.text {font-size: 32px;font-weight: bold;text-transform: uppercase;fill: none;stroke-width: 1px;stroke-dasharray: 45 155;animation: stroke 3s infinite linear;}.text-1 {stroke: #3498db;text-shadow: 0 0 5px #3498db;animation-delay: -0.75s;}.text-2 {stroke: #f39c12;text-shadow: 0 0 5px #f39c12;animation-delay: -1.5s;}.text-3 {stroke: #e74c3c;text-shadow: 0 0 5px #e74c3c;animation-delay: -2.25s;}.text-4 {stroke: #9b59b6;text-shadow: 0 0 5px #9b59b6;animation-delay: -3s;}@keyframes stroke {100% {stroke-dashoffset: -200;}}</style>
+<text text-anchor="middle" x="50%" y="25%" class="text text-1"><tspan x='50%' dy='1.2em'>&#xF8FF; 战无休而惑不息，吾辈何以为战？</tspan></text>
+<text text-anchor="middle" x="50%" y="25%" class="text text-2"><tspan x='50%' dy='1.2em'>&#xF8FF; 战无休而惑不息，吾辈何以为战？</tspan></text>
+<text text-anchor="middle" x="50%" y="25%" class="text text-3"><tspan x='50%' dy='1.2em'>&#xF8FF; 战无休而惑不息，吾辈何以为战？</tspan></text>
+<text text-anchor="middle" x="50%" y="25%" class="text text-4"><tspan x='50%' dy='1.2em'>&#xF8FF; 战无休而惑不息，吾辈何以为战？</tspan></text>
+</svg>

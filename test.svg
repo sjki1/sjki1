@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="700" height="100" xmlns="http://www.w3.org/2000/svg">
+<style>.text {font-size: 32px;font-weight: bold;text-transform: uppercase;fill: none;stroke-width: 1px;stroke-dasharray: 45 155;animation: stroke 3s infinite linear;}.text-1 {stroke: #3498db;text-shadow: 0 0 5px #3498db;animation-delay: -0.75s;}.text-2 {stroke: #f39c12;text-shadow: 0 0 5px #f39c12;animation-delay: -1.5s;}.text-3 {stroke: #e74c3c;text-shadow: 0 0 5px #e74c3c;animation-delay: -2.25s;}.text-4 {stroke: #9b59b6;text-shadow: 0 0 5px #9b59b6;animation-delay: -3s;}@keyframes stroke {100% {stroke-dashoffset: -200;}}</style>
+<script type="text/ecmascript"><![CDATA[
+    window.onload = function() {
+        var textArray = [
+	    '　　　　　　　　 　　　　　　　↓ 这里点一下',
+	    ' 挥剑决浮云，诸侯尽西来。',
+	    ' 想当年，金戈铁马，气吞万里如虎。',
+	    ' 当年万里觅封侯，匹马戍梁州。',
+	    ' 我见青山多妩媚，料青山见我应如是。',
+	    ' 战无休而惑不息，吾辈何以为战？',
+	    ' 一身转战三千里，一剑曾当百万师。',
+	    ' 剑来！',
+	    ' 手握日月摘星辰，世间无我这般人。',
+	    ' 试问天上仙人，谁敢来此人间？',
+	    ' 还不曾去过倒悬山',
+	    ' 遇事不决，可问春风。春风不语，即随本心。',
+	    ' 寒江孤影，江湖故人，相逢何必曾相识。',
+	    ' 过去无可挽回，未来可以改变。',
+	    ' 己不由心，身又岂能由己。',
+	    ' 愿你走出半生，归来仍是少年。',
+	    ' 天不生我乔布斯，创新万古如长夜！',
+	    ' Stay Hungry Stay Foolish',
+        ];
+        var randomText = textArray[Math.floor(Math.random() * textArray.length)];
+
+        ['neonText1', 'neonText2', 'neonText3', 'neonText4'].forEach(function(id) {
+            var textElement = document.getElementById(id);
+            if (textElement) {
+                textElement.textContent = randomText;
+            }
+        });
+    };
+]]></script>
+<text text-anchor="middle" x="50%" y="25%" class="text text-1"><tspan id="neonText1" x='50%' dy='1.2em'></tspan></text>
+<text text-anchor="middle" x="50%" y="25%" class="text text-2"><tspan id="neonText2" x='50%' dy='1.2em'></tspan></text>
+<text text-anchor="middle" x="50%" y="25%" class="text text-3"><tspan id="neonText3" x='50%' dy='1.2em'></tspan></text>
+<text text-anchor="middle" x="50%" y="25%" class="text text-4"><tspan id="neonText4" x='50%' dy='1.2em'></tspan></text>
+</svg>
